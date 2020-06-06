@@ -31,7 +31,7 @@
 
 <v-divider></v-divider>
 
-<span>Maharastra State Cases : {{users[19].confirmedCasesIndian}}</span>
+<span v-if="users[18]">Maharastra State Cases : {{users[19].confirmedCasesIndian}}</span>
 
 
 
